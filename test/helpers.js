@@ -7,27 +7,17 @@ const randomString = (length) => {
 const pages = [
   {
     route: '/',
-    title: 'Brian Dearing',
+    title: 'Penguins Software',
     heading: 'ABOUT THIS SITE',
   },
   {
-    route: '/about',
-    title: 'About | Brian Dearing',
-    heading: 'ABOUT ME',
-  },
-  {
-    route: '/projects',
-    title: 'Projects | Brian Dearing',
-    heading: 'PROJECTS',
-  },
-  {
-    route: '/stats',
-    title: 'Stats | Brian Dearing',
-    heading: 'STATS',
+    route: '/Services',
+    title: 'Services | Penguins Software',
+    heading: 'CONTACT',
   },
   {
     route: '/contact',
-    title: 'Contact | Brian Dearing',
+    title: 'Contact | Penguins Software',
     heading: 'CONTACT',
   },
 ];
