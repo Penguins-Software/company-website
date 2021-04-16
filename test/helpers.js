@@ -13,7 +13,7 @@ const pages = [
   {
     route: '/Services',
     title: 'Services | Penguins Software',
-    heading: 'Services',
+    heading: 'SERVICES',
   },
   {
     route: '/contact',
