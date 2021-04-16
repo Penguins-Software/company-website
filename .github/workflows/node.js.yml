@@ -24,11 +24,7 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-      env:
-        Username: ${{ secrets.USERNAME }}
-        Password: ${{ secrets.PASSWORD }}
-    - run: git  
-      
+        
     - run: npm ci
     - run: npm test
     - run: npm run predeploy
