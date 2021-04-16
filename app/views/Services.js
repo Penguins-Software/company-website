@@ -27,14 +27,7 @@ const Services = () => (
     <article className="post" id="Services">
       <header>
         <div className="title">
-          <h2><Link to="Services">Services</Link></h2>
-          {/* <div className="link-container">
-            {sections.map((sec) => (
-              <h4 key={sec}>
-                <a href={`#${sec.toLowerCase()}`}>{sec}</a>
-              </h4>))}
-          </div> */}
-
+          <h2><Link to="/Services">Services</Link></h2>
         </div>
       </header>
       <Software_Development data={software} />
