@@ -8,12 +8,12 @@ const pages = [
   {
     route: '/',
     title: 'Penguins Software',
-    heading: 'ABOUT THIS SITE',
+    heading: 'PENGUINS SOFTWARE',
   },
   {
     route: '/Services',
     title: 'Services | Penguins Software',
-    heading: 'CONTACT',
+    heading: 'Services',
   },
   {
     route: '/contact',
