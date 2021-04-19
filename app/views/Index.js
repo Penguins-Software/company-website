@@ -9,11 +9,11 @@ const Index = () => (
       <header>
         <div className="title">
           <h2><Link to="/">Penguins Software</Link></h2>
-          <p>Software and technical support at your flippertips.</p>
+          {/* <p>Software and technical support at your flippertips.</p> */}
         </div>
       </header>
       <p> 
-        Providing Software Development, IT Support, and Security Consultations to NWA.
+        A software startup dedicated to developing custom solutions for small businesses.
       </p>
     </article>
   </Main>
