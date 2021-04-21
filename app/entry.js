@@ -16,6 +16,7 @@ import NotFound from './views/NotFound';
 
 // All of our CSS
 import './static/css/main.scss';
+//import 'semantic-ui-css/semantic.min.css'
 
 ReactDOM.render(
   <Router basename={BASE_PATH}>

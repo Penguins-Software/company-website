@@ -11,7 +11,7 @@ import Security_Consultation from '../components/Services/Security_Consultation'
 import References from '../components/Services/References';
 
 import security from '../data/Services/security';
-import software from '../data/Services/software';
+import software from '../data/Services/software/software';
 import it_services from '../data/Services/it_services';
 // import { skills, categories } from '../data/Services/skills';
 
