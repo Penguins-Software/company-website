@@ -1,6 +1,8 @@
 FROM node:alpine
 
-
+ENV NODE_ENV=development
+ENV PORT=7999
+ENV GA_ID=UA_XXXXXX
 
 # set the working direction
 WORKDIR /app
