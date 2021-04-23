@@ -1,5 +1,7 @@
 FROM node:alpine
 
+
+
 # set the working direction
 WORKDIR /app
 
@@ -11,10 +13,14 @@ COPY package.json ./
 
 COPY package-lock.json ./
 
-RUN npm install
-
 # add app
 COPY . ./
+
+RUN apk add --no-cache --virtual .gyp python make g++ \
+    && npm install \
+    && apk del .gyp
+
+RUN npm install
 
 # start app
 CMD ["npm", "run", "dev"]
