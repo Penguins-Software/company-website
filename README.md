@@ -12,7 +12,7 @@ Many people have contacted me about adapting this website. I have tried to make 
 
 Tested with:
 
-* node >= v8, v9, v10, v11
+* node >= v8, v9, v10, v11, v15
 * Recommend [nvm](https://github.com/creationix/nvm#installation) for managing node versions
 
 ## Set up
